@@ -60,9 +60,9 @@ const Home = () => {
     setRoomPassword(newRoomPassword);
 
     // Emit a 'join-room' event to the server with room details
- if (roomId){
-    socket.emit("join room",roomId);
- }
+    if (roomId) {
+      socket.emit("join room", roomId);
+    }
     // Now you can use roomId and roomPassword in your logic
     console.log("Room ID:", roomId);
     console.log("Room Password:", roomPassword);
