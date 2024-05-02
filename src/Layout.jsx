@@ -5,9 +5,9 @@ const Layout = () => {
   const url = useLocation()
   return (
     <div>
-      {
+      {/* {
         url.pathname !== '/chat' && <Navbar />
-      }
+      } */}
       <Outlet />
     </div>
   )
