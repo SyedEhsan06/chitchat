@@ -149,20 +149,7 @@ const Chat = () => {
      <div class="flex items-start gap-2.5">
 <div className="friend-avatar w-10 h-10 flex bg-blue-600 rounded-full ml-1">
   /</div>
-   <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-blue-500 rounded-e-xl rounded-es-xl">
-      <div class="flex items-center space-x-2 rtl:space-x-reverse">
-         <span className="text-sm font-semibold">Syed</span>
-         <span className="text-sm font-normal">11:46</span>
-      </div>
-      <p class="text-sm font-normal py-2.5">hey my name is syed ,and i am from bihar</p>
-      <span class="text-sm font-normal">Delivered</span>
-   </div>
-</div>
-
-<div class="flex items-start gap-2.5">
-<div className="friend-avatar w-10 h-10 flex bg-blue-600 rounded-full ml-1">
-  /</div>
-   <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-blue-500 rounded-e-xl rounded-es-xl">
+   <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 shadow-2xl border-gray-200 bg-blue-500 rounded-e-xl rounded-es-xl">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span className="text-sm font-semibold">Syed</span>
          <span className="text-sm font-normal">11:46</span>
@@ -173,10 +160,24 @@ const Chat = () => {
 </div>
 
 
+<div class="flex flex-row-reverse gap-2.5 ">
+<div className="friend-avatar w-10 h-10 flex bg-blue-600 rounded-full mr-1">
+  /</div>
+   <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 shadow-2xl border-gray-200 bg-gray-500 rounded-s-xl rounded-br-xl dark:bg-gray-700">
+      <div class="flex items-center space-x-2 rtl:space-x-reverse">
+         <span className="text-sm font-semibold">Syed</span>
+         <span className="text-sm font-normal">11:46</span>
+      </div>
+      <p class="text-sm font-normal py-2.5">hey my name is syed ,and i am from bihar</p>
+      <span class="text-sm font-normal">Delivered</span>
+   </div>
+</div>
+
+
 <div class="flex items-start gap-2.5">
 <div className="friend-avatar w-10 h-10 flex bg-blue-600 rounded-full ml-1">
   /</div>
-   <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-blue-500 rounded-e-xl rounded-es-xl">
+   <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 shadow-2xl border-gray-200 bg-blue-500 rounded-e-xl rounded-es-xl">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span className="text-sm font-semibold">Syed</span>
          <span className="text-sm font-normal">11:46</span>
@@ -189,7 +190,7 @@ const Chat = () => {
 <div class="flex flex-row-reverse gap-2.5 ">
 <div className="friend-avatar w-10 h-10 flex bg-blue-600 rounded-full mr-1">
   /</div>
-   <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 border-gray-200 bg-gray-500 rounded-s-xl rounded-br-xl dark:bg-gray-700">
+   <div className="flex flex-col w-full max-w-[320px] leading-1.5 p-4 shadow-2xl border-gray-200 bg-gray-500 rounded-s-xl rounded-br-xl dark:bg-gray-700">
       <div class="flex items-center space-x-2 rtl:space-x-reverse">
          <span className="text-sm font-semibold">Syed</span>
          <span className="text-sm font-normal">11:46</span>
