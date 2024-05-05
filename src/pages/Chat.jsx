@@ -11,33 +11,34 @@ import { FaTag } from "react-icons/fa6";
 import { GrGallery } from "react-icons/gr";
 import { IoSend } from "react-icons/io5";
 import "./Scroll.css"
+import { useNavigate } from "react-router";
 
 const Chat = () => {
   const [user] = useAuthState(auth);
   const [friends, setFriends] = useState([]);
-  let friendsList = [
-    {
-      name: "Siu",
-      lastMessage: "Hello",
-      status: "online",
-    },
-    {
-      name: "Jane Doe",
-      lastMessage: "Hi",
-      status: "offline",
-    },
-    {
-      name: "James Doe",
-      lastMessage: "Hey",
-      status: "online",
-    },
-  ];
-  useEffect(() => {
-    setFriends(friendsList);
-  }
-  , []);
+  // let friendsList = [
+  //   {
+  //     name: "John Doe",
+  //     lastMessage: "Hello",
+  //     status: "online",
+  //   },
+  //   {
+  //     name: "Jane Doe",
+  //     lastMessage: "Hi",
+  //     status: "offline",
+  //   },
+  //   {
+  //     name: "James Doe",
+  //     lastMessage: "Hey",
+  //     status: "online",
+  //   },
+  // ];
+  // useEffect(() => {
+  //   setFriends(friendsList);
+  // }
+  // , []);
   const navigate = useNavigate();
-  console.log(user)
+  console.log(user?.photoURL);
   // let userImage = user?.photoURL;
   if (!user) {
     return (
